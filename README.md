@@ -15,10 +15,8 @@
 ### Steps
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/your-repo-name.git
-2. Navigate to project directory:
-    ```bash
-   cd repo
+   git clone https://github.com/Kumaresan045/Regex_To_DFA.git
+2. Navigate to project directory
 3. Run the bash script:
     ```bash
    bash run.sh
