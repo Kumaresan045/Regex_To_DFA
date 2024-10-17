@@ -1,0 +1,19 @@
+digraph DFA { 
+   rankdir=LR;
+    start[shape=point, width=0];
+	"q1"[label="q1", shape=doublecircle];
+	"q0"[label="q0", shape=doublecircle];
+	"q2"[label="q2", shape=circle];
+	"q3"[label="q3", shape=circle];
+	"q4"[label="q4", shape=circle];
+	start -> "q0" [label="", style=solid];
+	"q1" -> "q1"[label = "b"];
+	"q1" -> "q3"[label = "a"];
+	"q2" -> "q1"[label = "b"];
+	"q2" -> "q4"[label = "a"];
+	"q3" -> "q1"[label = "a"];
+	"q4" -> "q2"[label = "a"];
+	"q0" -> "q1"[label = "b"];
+	"q0" -> "q4"[label = "a"];
+}
+

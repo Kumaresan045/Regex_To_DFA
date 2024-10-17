@@ -1,0 +1,98 @@
+# General
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+node_modules/
+vendor/
+.venv/
+.env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.pyo
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+env.bak/
+
+# IDEs and Editors
+# JetBrains (IntelliJ, PyCharm, WebStorm)
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Visual Studio Code
+.vscode/
+
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows system files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Coverage reports
+coverage/
+*.cover
+*.coverage
+*.coveragerc
+.nosetests.xml
+coverage.xml
+
+# Docker
+.docker/
+.dockerignore
+
+# GitHub
+.github/
+
+# Generated files
+*.class
+*.war
+*.jar
+*.swp
+
+# Package managers
+package-lock.json
+yarn.lock
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Miscellaneous
+*.bak
+*.tmp
+*.log
